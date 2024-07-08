@@ -1,6 +1,4 @@
 import DeleteTimeMessage from "./DeleteTimeMessage"
-import Logo from "./Logo"
-
 interface TimeMessageCardProps {
     user: string
     content: string
