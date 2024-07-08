@@ -21,7 +21,7 @@ export default function CreateTimeMessage(props: CreateTimeMessageProps) {
         const params = {
             time_message: {
                 content: newMessageContent,
-                date_to_open: new Date(newMessageDate).toISOString().slice(0, 10)
+                date_to_open: newMessageDate.split("/").reverse.join("-")
             }
         }
         await api.post(`/users/${props.user}/time_messages`, params)
