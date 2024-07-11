@@ -83,7 +83,7 @@ export default function CreateTimeMessage(props: CreateTimeMessageProps) {
                         <div className="modal-box">
 
                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" onClick={closeModal}>✕</button>
-                            <h3 className="font-bold text-lg">Adicionar Mensagem</h3>
+                            <h4 className="font-bold text-lg">Adicionar Mensagem</h4>
                             <p className="py-4">Adicione uma data de quando a mensagem poderá ser visualizada:</p>
                             <div className='my-2'>
                                 <label className="input input-bordered flex items-center gap-2">

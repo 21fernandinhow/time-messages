@@ -43,7 +43,7 @@ export default function CreateUser() {
                         <div className="modal-box">
 
                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" onClick={closeModal}>✕</button>
-                            <h3 className="font-bold text-lg">Criar usuário</h3>
+                            <h4 className="font-bold text-lg">Criar usuário</h4>
                             <p className="py-4">Basta adicionar seu email para criar seu usuário:</p>
                             <div className='flex flex-wrap gap-2'>
                                 <label className="input input-bordered flex items-center gap-2">

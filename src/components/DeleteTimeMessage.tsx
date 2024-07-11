@@ -49,7 +49,7 @@ export default function DeleteTimeMessage(props: DeleteTimeMessageProps) {
                         <div className="modal-box">
 
                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" onClick={closeModal}>✕</button>
-                            <h3 className="font-bold text-lg">Tem certeza que deseja apagar a mensagem?</h3>
+                            <h4 className="font-bold text-lg">Tem certeza que deseja apagar a mensagem?</h4>
 
                             <div className='flex gap-2 justify-end mt-6'>
                                 <button className='btn btn-ghost' onClick={closeModal}>Cancelar</button>

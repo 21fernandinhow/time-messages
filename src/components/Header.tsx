@@ -5,7 +5,7 @@ export default function Header () {
     return(
         <header className="navbar sticky top-0 bg-base-100 z-10">
             <div className="flex-1">
-                <a className="p-2 text-xl" href="#">
+                <a className="p-2 text-xl" href="#" aria-label="Logo">
                     <Logo width={40} height={40} />
                 </a>
             </div>
