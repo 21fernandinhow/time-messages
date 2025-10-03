@@ -7,7 +7,7 @@ export default function Footer () {
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-neutral font-bold mx-1 hover:underline" 
-                        href="https://fernandocarvalhodev.com"
+                        href="https://tudoaqui.click/founder"
                     >
                         Fernando Carvalho
                     </a>
